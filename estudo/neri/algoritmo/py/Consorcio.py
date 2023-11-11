@@ -1,0 +1,10 @@
+total_prest = float(input("Informe o total de parcelas: "))
+qtd_prest_pagas = float(input("Informe a quantidade de parcelas pagas: "))
+valor_prest = float(input("Informe o valor da prestacao: "))
+total_prest_pagas = valor_prest * qtd_prest_pagas
+saldo_devedor = valor_prest * (total_prest - qtd_prest_pagas)
+print(f"\n O total de prestacoes foi de: {total_prest}")
+print(f"\n Foram pagas: {qtd_prest_pagas}")
+print(f"\n O valor de cada prestacao e de: {valor_prest}")
+print(f"\n O total de prestacoes pagas foi de: {total_prest_pagas}")
+print(f"\n O saldo devedor ficou de: {saldo_devedor}")

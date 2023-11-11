@@ -1,0 +1,5 @@
+valor_prest = float(input("Informe o valor: "))
+taxa = float(input("Informe a taxa: "))
+dias_atraso = float(input("Informe a quantidade de dias em atraso: "))
+prest = valor_prest + (valor_prest * (taxa /100) * dias_atraso)
+print(f"Informe o valor corrgido da prestacao: {prest}")  
