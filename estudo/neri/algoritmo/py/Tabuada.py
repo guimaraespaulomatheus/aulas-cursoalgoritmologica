@@ -1,3 +1,6 @@
+'''
+ola
+'''
 n = int(input("Digite um numero: "))
 print(f"1 x {n} = {1*n}")
 print(f"2 x {n} = {2*n}")

@@ -1,5 +1,7 @@
 // Algoritmo criado para resolver as ops matematicas representadas abaixo,
+/*
 
+*/
 #include <stdio.h>
 int main(){
     float num1, num2, multiplicacao, divisao, soma, subtracao;
